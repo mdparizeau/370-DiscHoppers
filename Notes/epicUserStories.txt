@@ -1,0 +1,30 @@
+EPICS
+1.) As a player, I want to be able to choose my platform mesh,
+so I can choose what kind of bounces I can do during runs.
+	a.) As a player, I want an option for a platform more attuned to horizontal velocity, so I can feel faster.
+	b.) As a player, I want an option for a platform more attuned to vertical velocity, so I can feel lighter.
+	c.) As a player, I want an option for a platform with every possible cardinal angle even if it requires more skill to use, so I can feel like I have complete control.
+	d.) As a player, I want a curved platform, so I can dynamically choose which direction I'll launch toward using my air controls.
+2.) As a player, I want to be able to understand every aspect
+of the game by myself through a comprehensive, integrated tutorial, 
+so I don't feel like I'm missing something when I'm struggling to 
+complete a goal.
+	a.) As a player, I want to know how to shoot a projectile platform, so I can feel confident when playing the game.
+	b.) As a player, I want to know the projectile speed, so I never feel like that was the reason I messed something up.
+	c.) As a player, I want to understand the game's terminal velocity and how it impacts my air control, so I don't feel like I've lost control as a I speed up.
+	d.) As a player, I want to understand how the platform's normal only applies an impulse equivilent to the surplus of the difference of the velocity of it and the player, so I never feel like I lost speed for no reason.
+3.) As a player, I want an audial and/or visual indication 
+when I shoot, deploy, and collide with the platform, so it feels
+like I'm actually doing all those things.
+	a.) As a player, I want to know when I can cancel the projectile via on-screen text, so I'm never guessing.
+	b.) As a player, I want to know when I can manually deploy the projectile into a platform via on-screen text, so I can time my deployment with my movements.
+	c.) As a player, I want to hear when I shoot the projectile, so it feels like I'm shooting a gun.
+	d.) As a player, I want to hear when I collide with a platform, so I can feel the tempo of my deployments.
+	e.) As a player, I want a visual indication of the platform deployment, so it doesn't feel like it just appeared out of nowhere.
+4.) As a player, I want a time trial clock diplay that starts
+when i leave the starting area, stops when i reach the end, 
+and resets when I re-enter the starting area, so I can track
+my progress and feel like I'm improving.
+	a.) As a player, I want to be able to return to the start of the run with the press of a button, so I never feel like I'm wasting time.
+	b.) As a player, I want to see the clock start while I'm playing, so I can determine how well I'm doing at any point in the run.
+	c.) As a player, I want the game to save my fastest time of the session and display, so I feel like I accomplished something and have a new goal to overcome.

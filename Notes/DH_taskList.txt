@@ -1,0 +1,50 @@
+Overall:
+**1.) reduce gravity
+**2.) reduce base launch velocity
+
+Both options will be centered around manual deployment (LC, RC), with Op. 1 focusing on faster-paced movement and boosting, and Op. 2 focusing on decision making and platform 
+
+OPTION 1
+//**0.) overlap = can boost
+//**1.) Space = BOUNCE_on_it! (x2 z)
+//**2.) LCtrl = drop (set character velocity to 0)
+//3.) make proj. speed a function of player velocity + base
+
+//OPTION 2
+1.) lower terminal velocity
+2.) lower gravity
+	a.) or maybe higher platform launch vel instead?
+3.) create bool: canRotatePlatform
+	a.) set to false by default
+	b.) set to false when player fires projectile (activeProjectile is true)
+	c.) set to true when platform is deployed (activeProjectile is false)
+4.) if canRotatePlatform, check lineTrace from camera forward until first collision. if first collision is platform, activate platform rotation while RC is held down. Get the platform to rotate it locally
+	a.) change RC to enhanced input action
+
+NEW
+**0.) CD for shooting
+	a.) LC deletes active projectile if able
+**1.) increase terminal velocity
+	**a.) increase launch speed
+	**b.) make proj. speed a function of player velocity
+		//1a.) switch out spawning for relocating
+		//1b.) set initial (?) speed
+		//1c.) activate proj. movement component
+		//1d.) teleport projectile
+		1e.) add player speed to projectile velocity
+**2.) slightly increase gravity
+**3.) decrease air control
+4.) add sound effects
+	a.) shooting
+	b.) deploying
+	c.) jumping
+5.) add unique platform meshes (that can be can be activated w/ 0-3 for testing purposes)
+	0.) default flat disc
+	1.) smooth convex
+	2.) smooth concave
+	3.) sweet spot ramp
+**6.) add respawn
+7.) add UI
+	a.) directly under player cursor: "RC to deploy manually" while proj is active
+	b.) bottom middle of the screen: "Platform manually deployed." when RC while proj is active
+	c.) bottom middle of the screen: "Projectile manually canceled." when LC while proj is active
