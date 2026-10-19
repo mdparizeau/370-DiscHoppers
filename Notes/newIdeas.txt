@@ -1,0 +1,27 @@
+Level Ideas
+1.) A dynamic, non-linear level in which the player would have to traverse from
+the start zone to the end zone, at which point, the the end zone would become the 
+new start zone, and the end zone would move to a new location, effectly operating
+as checkpoints. This would encourage players to look ahead to the next checkpoint 
+while challenging them to maintain momentum while making tight turns and finding 
+creative pathing.
+
+Obstacle Ideas
+1.) Glass barrier that operates as a speed check: onHit (will swithc to onOverlap
+if hit causes player to lose momentum), checks player speed. If too low, player
+runs into the glass like a bird into a window. If fast enough, player will break 
+through the glass and the glass will procedurely shatter into pieces (there is a 
+way to do this in UE so that it's different every time).
+2.) Wall of moveable blocks with different colors according to their weights. Walls
+will create a kind of target in which the lightest blocks are toward the middle 
+and the heaviest are toward the perimeter, incentivizing players' percision by 
+allowing them greater momentum preservation.
+3.) Wall that launches character opposite of their velocity when hitting wall 
+according to the wall's normal. Would be helpful for 180s and U-turns, especially 
+for the dynamic, non-linear levels.
+
+Mechanic Ideas
+1.) Instead of having the LC while projectile is active to cancel the active
+projectile, make it a boost portal (like Juno's from Overwatch), accelerating
+the player forward by adding velocity through launch character
+	a.) Get Velocity, and drag off it to find Get Safe Normal -> launch
