@@ -48,3 +48,7 @@ NEW
 	a.) directly under player cursor: "RC to deploy manually" while proj is active
 	b.) bottom middle of the screen: "Platform manually deployed." when RC while proj is active
 	c.) bottom middle of the screen: "Projectile manually canceled." when LC while proj is active
+8.) fix bugs
+	a.) add delay to manual deployment
+	b.) add fix for when player gets stuck in platform
+	c.) add fix for when player gets stuck between platform and map
