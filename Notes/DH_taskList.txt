@@ -38,11 +38,11 @@ NEW
 	a.) shooting
 	b.) deploying
 	c.) jumping
-5.) add unique platform meshes (that can be can be activated w/ 0-3 for testing purposes)
-	0.) default flat disc
-	1.) smooth convex
-	2.) smooth concave
-	3.) sweet spot ramp
+**5.) add unique platform meshes (that can be can be activated w/ 0-3 for testing purposes)
+	**0.) default flat disc
+	**1.) smooth convex
+	**2.) smooth concave
+	**3.) sweet spot ramp
 **6.) add respawn
 **7.) add UI
 	**a.) directly under player cursor: "RC to deploy manually" while proj is active
