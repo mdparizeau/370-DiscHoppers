@@ -1,5 +1,5 @@
 Overall:
-**1.) reduce gravity
+**1.) reduce gravity pp
 **2.) reduce base launch velocity
 
 Both options will be centered around manual deployment (LC, RC), with Op. 1 focusing on faster-paced movement and boosting, and Op. 2 focusing on decision making and platform 
