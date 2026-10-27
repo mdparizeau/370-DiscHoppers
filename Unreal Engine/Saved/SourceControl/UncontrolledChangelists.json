@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+			]
+		}
+	]
+}
