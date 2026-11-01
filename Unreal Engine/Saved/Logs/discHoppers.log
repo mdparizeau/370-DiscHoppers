@@ -2853,3 +2853,24 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.01-00.58.45:084][ 26]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
 [2026.11.01-00.58.45:749][ 26]LogExit: Editor shut down
 [2026.11.01-00.58.45:755][ 26]LogExit: Transaction tracking system shut down
+[2026.11.01-00.58.50:708][ 26]LogExit: Object subsystem successfully closed.
+[2026.11.01-00.58.50:731][ 26]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.11.01-00.58.52:768][ 26]LogMemoryProfiler: Shutdown
+[2026.11.01-00.58.52:788][ 26]LogNetworkingProfiler: Shutdown
+[2026.11.01-00.58.52:788][ 26]LoadingProfiler: Shutdown
+[2026.11.01-00.58.52:788][ 26]LogTimingProfiler: Shutdown
+[2026.11.01-00.58.52:897][ 26]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.11.01-00.58.52:904][ 26]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.11.01-00.58.54:128][ 26]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.11.01-00.58.54:274][ 26]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.11.01-00.58.54:281][ 26]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7436B0F6-4A7E-BC98-408E-90AAF1A8E973%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=cbbe157049373592c995c79b627aed04%7C244beab2db2c465a8189ea7e74b0fdc5%7C130dd57a-130b-40e6-9039-8fa5b130b30c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.11.01-00.58.54:960][ 26]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.11.01-00.58.54:960][ 26]LogNFORDenoise: NFORDenoise function shutting down
+[2026.11.01-00.58.55:006][ 26]RenderDocPlugin: plugin has been unloaded.
+[2026.11.01-00.58.55:074][ 26]LogXGEController: Cleaning working directory: C:/Users/Michael/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.11.01-00.58.55:200][ 26]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.11.01-00.58.55:200][ 26]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.11.01-00.58.55:200][ 26]LogPakFile: Destroying PakPlatformFile
+[2026.11.01-00.58.55:524][ 26]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.11.01-00.58.55:634][ 26]LogExit: Exiting.
+[2026.11.01-00.58.55:665][ 26]Log file closed, 10/31/26 17:58:55
