@@ -1,0 +1,17 @@
+0.) go to next level (key, switcher)
+	a.) fix the UI in new tutorial (walls)
+1.) finish menus (switcher)
+2.) create 2 more levels
+3.) target time + recording personal best
+	a.) switch on level inside HUD to display target
+4.) SFX
+	a.) bouncing on platform
+	b.) boosting through platforms
+	c.) shooting platform projectile
+	d.) ending the level
+5.) Level elements
+	a.) hazards
+	b.) bouncy
+	c.) icey
+	d.) dead stop
+	e.) portals
