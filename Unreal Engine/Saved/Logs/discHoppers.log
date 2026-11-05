@@ -2064,3 +2064,283 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.05-09.57.30:585][395]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_Water_Lake_Auto1
 [2026.11.05-09.57.30:586][395]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/M_Water_Lake_Auto1A08D999B41D75A16829E478955C22BFE.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Lake_Auto1.uasset'
 [2026.11.05-09.57.30:586][395]LogFileHelpers: Auto-saving content packages took 0.104
+[2026.11.05-09.59.55:021][123]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform
+[2026.11.05-09.59.55:021][123]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.11.05-09.59.55:433][123]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_13:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.00:541][409]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.00:541][409]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_13:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:888][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:888][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_13:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:956][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.11.05-10.00.50:960][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:961][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_13:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:961][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:977][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_13:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.50:978][391]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.00.51:656][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.05-10.00.51:710][429]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform] ([2] browsable assets)...
+[2026.11.05-10.00.51:717][429]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform]
+[2026.11.05-10.00.51:717][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform]
+[2026.11.05-10.00.51:728][429]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform
+[2026.11.05-10.00.51:728][429]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/BP_boostingPlatform0057520344E35E12D6DAC894A01787AB.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.uasset'
+[2026.11.05-10.00.51:737][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.464 ms (total: 963.510 ms)
+[2026.11.05-10.00.51:790][429]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.05-10.00.51:790][429]LogContentValidation: Enabled validators:
+[2026.11.05-10.00.51:790][429]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.05-10.00.51:790][429]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.05-10.00.51:791][429]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.05-10.00.51:791][429]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.05-10.00.51:791][429]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.05-10.00.51:791][429]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.05-10.00.51:791][429]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform Validating asset
+[2026.11.05-10.00.51:817][429]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.05-10.00.53:495][530]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.00.53:495][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.00.53:547][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.11.05-10.00.55:405][641]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.00.55:405][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.00.55:449][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.11.05-10.01.02:445][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.11.05-10.01.04:132][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.05-10.01.04:183][131]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_platformProjectile] ([2] browsable assets)...
+[2026.11.05-10.01.04:189][131]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_platformProjectile.BP_platformProjectile]
+[2026.11.05-10.01.04:189][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_platformProjectile]
+[2026.11.05-10.01.04:199][131]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_platformProjectile
+[2026.11.05-10.01.04:199][131]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/BP_platformProjectile4FCAC02A479B84FB7664E1A8F3F062C8.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_platformProjectile.uasset'
+[2026.11.05-10.01.04:209][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.453 ms (total: 1.04 sec)
+[2026.11.05-10.01.04:266][131]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.05-10.01.04:266][131]LogContentValidation: Enabled validators:
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.05-10.01.04:266][131]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.05-10.01.04:266][131]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_platformProjectile Validating asset
+[2026.11.05-10.01.09:796][456]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1311.906860
+[2026.11.05-10.01.09:945][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.05-10.01.09:946][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1312.039307, Update Interval: 310.746796
+[2026.11.05-10.01.11:031][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.05-10.01.11:031][528]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.01.11:031][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.01.11:091][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.11.05-10.01.17:190][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.05-10.01.18:013][825]LogSlate: Window 'Save Content' being destroyed
+[2026.11.05-10.01.18:022][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.05-10.01.18:079][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Materials/M_Water_Lake] ([1] browsable assets)...
+[2026.11.05-10.01.18:079][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Water_Lake]
+[2026.11.05-10.01.18:085][825]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Water_Lake
+[2026.11.05-10.01.18:086][825]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/M_Water_Lake698909AA4BEA3F907EC897BE194D3EBD.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Content/StarterContent/Materials/M_Water_Lake.uasset'
+[2026.11.05-10.01.18:087][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Materials/M_Wood_Oak] ([1] browsable assets)...
+[2026.11.05-10.01.18:087][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Wood_Oak]
+[2026.11.05-10.01.18:090][825]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Wood_Oak
+[2026.11.05-10.01.18:091][825]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/M_Wood_OakF85D15D44E4D7C0048FB93868A4480A8.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Content/StarterContent/Materials/M_Wood_Oak.uasset'
+[2026.11.05-10.01.18:100][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.942 ms (total: 1.11 sec)
+[2026.11.05-10.01.18:148][825]LogContentValidation: Display: Starting to validate 2 assets
+[2026.11.05-10.01.18:148][825]LogContentValidation: Enabled validators:
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.05-10.01.18:148][825]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.05-10.01.18:148][825]AssetCheck: /Game/StarterContent/Materials/M_Water_Lake Validating asset
+[2026.11.05-10.01.18:148][825]AssetCheck: /Game/StarterContent/Materials/M_Wood_Oak Validating asset
+[2026.11.05-10.01.18:177][825]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.05-10.06.42:549][725]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1644.657227
+[2026.11.05-10.06.43:551][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.05-10.06.43:551][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1645.323608, Update Interval: 338.169495
+[2026.11.05-10.13.04:192][ 84]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.11.05-10.13.09:929][400]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.11.05-10.13.09:929][400]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.11.05-10.13.09:929][400]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_0
+[2026.11.05-10.13.09:931][400]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_0
+[2026.11.05-10.13.10:536][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.11.05-10.13.10:539][433]LogEditorActor: Deleted 0 Actors (0.043 secs)
+[2026.11.05-10.13.10:547][433]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.11.05-10.13.10:547][433]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.11.05-10.13.10:551][433]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_UAID_D4939014B568D51103_1200330271
+[2026.11.05-10.13.10:552][433]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_UAID_D4939014B568D51103_1200330271
+[2026.11.05-10.13.12:243][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2034.347778
+[2026.11.05-10.13.12:409][536]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.05-10.13.12:411][536]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2034.498169, Update Interval: 334.435852
+[2026.11.05-10.13.19:175][942]Cmd: DELETE
+[2026.11.05-10.13.19:175][942]Cmd: ACTOR DELETE
+[2026.11.05-10.13.19:177][942]LogEditorActor: Deleted Actor: TriggerBox
+[2026.11.05-10.13.19:203][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.11.05-10.13.19:206][942]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.11.05-10.13.31:418][571]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform
+[2026.11.05-10.13.31:419][571]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.11.05-10.13.31:782][571]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_14:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.05-10.14.24:105][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.11.05-10.14.24:111][529]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.054
+[2026.11.05-10.14.30:071][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.05-10.14.30:075][551]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.05-10.14.30:075][551]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.05-10.14.30:076][551]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.05-10.14.30:076][551]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.040 ms (total: 3.823 ms)
+[2026.11.05-10.14.30:076][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.05-10.14.30:076][551]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.05-10.14.30:085][551]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.05-10.14.30:087][551]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.821 ms (total: 7.396 ms)
+[2026.11.05-10.14.30:087][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011238s)
+[2026.11.05-10.14.30:087][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011277s)
+[2026.11.05-10.14.30:116][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.11.05-10.14.30:117][551]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.05-10.14.30:119][551]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.05-10.14.30:119][551]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.05-10.14.30:119][551]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.05-10.14.30:119][551]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.05-10.14.30:121][551]LogWorldPartition: Display: WorldPartition initialize took 2.544 ms (total: 127.618 ms)
+[2026.11.05-10.14.30:121][551]LogPlayLevel: PIE: World Init took: (0.004498s)
+[2026.11.05-10.14.30:123][551]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.05-10.14.30:123][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.05-10.14.30:123][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.05-10.14.30:123][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.05-10.14.30:123][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.05-10.14.30:123][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.05-10.14.30:125][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.05-10.14.30:140][551]LogAudioMixer: Display: Using Audio Hardware Device Speakers (G432 Gaming Headset)
+[2026.11.05-10.14.30:140][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.05-10.14.30:140][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.05-10.14.30:140][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.05-10.14.30:141][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.11.05-10.14.30:141][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.11.05-10.14.30:145][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.11.05-10.14.30:145][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.11.05-10.14.30:145][551]LogInit: FAudioDevice initialized with ID 5.
+[2026.11.05-10.14.30:145][551]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2026.11.05-10.14.30:145][551]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.05-10.14.30:223][551]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.05-10.14.30:227][551]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2026.11.05-02.14.30
+[2026.11.05-10.14.30:227][551]LogWorld: Bringing up level for play took: 0.003704
+[2026.11.05-10.14.30:231][551]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.11.05-10.14.30:234][551]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.05-10.14.30:234][551]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.05-10.14.30:234][551]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.05-10.14.30:235][551]PIE: Server logged in
+[2026.11.05-10.14.30:238][551]PIE: Play in editor total start time 0.163 seconds.
+[2026.11.05-10.14.31:059][598]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.05-10.14.31:685][635]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.05-10.14.31:685][635]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.05-10.14.34:304][792]LogBlueprintUserMessages: [BP_platformProjectile_C_0] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.35:104][840]LogBlueprintUserMessages: [BP_platformProjectile_C_1] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.35:621][871]LogBlueprintUserMessages: [BP_platformProjectile_C_2] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.37:020][955]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.38:254][ 29]LogBlueprintUserMessages: [BP_platformProjectile_C_4] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.39:222][ 87]LogBlueprintUserMessages: [BP_platformProjectile_C_5] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.40:087][139]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.40:771][180]LogBlueprintUserMessages: [BP_platformProjectile_C_7] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.41:872][246]LogBlueprintUserMessages: [BP_platformProjectile_C_8] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.43:272][330]LogBlueprintUserMessages: [BP_platformProjectile_C_9] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.44:904][428]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.46:004][494]LogBlueprintUserMessages: [BP_platformProjectile_C_11] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.47:054][557]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.48:140][622]LogBlueprintUserMessages: [BP_platformProjectile_C_13] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.48:688][655]LogBlueprintUserMessages: [BP_platformProjectile_C_14] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.49:405][698]LogBlueprintUserMessages: [BP_platformProjectile_C_15] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.50:121][741]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.50:620][771]LogBlueprintUserMessages: [BP_platformProjectile_C_17] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.50:719][777]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.51:921][849]LogBlueprintUserMessages: [BP_platformProjectile_C_18] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.52:637][892]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.53:488][943]LogBlueprintUserMessages: [BP_platformProjectile_C_20] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.56:337][114]LogBlueprintUserMessages: [BP_platformProjectile_C_21] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.56:937][150]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.14.58:789][261]LogBlueprintUserMessages: [BP_platformProjectile_C_23] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.59:719][317]LogBlueprintUserMessages: [BP_platformProjectile_C_24] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.14.59:803][322]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.15.00:687][375]LogBlueprintUserMessages: [BP_platformProjectile_C_25] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.02:238][468]LogBlueprintUserMessages: [BP_platformProjectile_C_26] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.02:271][470]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.15.02:722][497]LogBlueprintUserMessages: [BP_platformProjectile_C_27] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.03:371][536]LogBlueprintUserMessages: [BP_platformProjectile_C_28] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.03:504][544]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.15.04:589][609]LogBlueprintUserMessages: [BP_platformProjectile_C_29] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.06:838][744]LogBlueprintUserMessages: [BP_platformProjectile_C_30] JUMPING PLATFORM DEPLOYED
+[2026.11.05-10.15.06:887][747]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.15.08:771][860]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.05-10.15.11:212][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.05-10.15.11:212][  5]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.05-10.15.11:213][  5]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.15.11:213][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.15.11:213][  5]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.05-10.15.11:215][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.05-10.15.11:221][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.15.11:250][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.05-10.15.11:250][  5]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.05-10.15.11:250][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.11.05-10.15.11:252][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.11.05-10.15.11:259][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.11.05-10.15.11:308][  6]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.11.05-10.17.38:772][887]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPerson/Blueprints/discHoppers/UI/WBP_Master.WBP_Master
+[2026.11.05-10.17.38:772][887]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.11.05-10.17.38:782][887]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.11.05-10.17.38:788][887]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.11.05-10.17.39:327][887]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.11.05-10.17.45:023][202]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.17.45:024][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.17.45:029][202]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.17.45:031][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.17.45:113][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.11.05-10.17.49:711][453]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPerson/Blueprints/discHoppers/UI/WBP_HUD.WBP_HUD
+[2026.11.05-10.17.49:711][453]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.11.05-10.17.49:719][453]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.11.05-10.19.21:784][564]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2403.890869
+[2026.11.05-10.19.21:949][573]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.05-10.19.21:949][573]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2404.038574, Update Interval: 336.402466
+[2026.11.05-10.20.23:596][671]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/discHoppers/UI/BP_StartUI.BP_StartUI
+[2026.11.05-10.20.23:596][671]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.11.05-10.20.34:946][306]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2026.11.05-10.20.34:947][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.05-10.20.35:051][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.11.05-10.21.07:795][825]LogEditorTransaction: Undo Move Node
+[2026.11.05-10.21.10:329][924]LogEditorTransaction: Undo Move Node
+[2026.11.05-10.21.16:889][183]LogEditorTransaction: Undo Add Node
+[2026.11.05-10.24.38:212][862]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.05-10.24.41:040][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.11.05-10.24.42:208][983]LogSlate: Window 'Save Content' being destroyed
+[2026.11.05-10.24.42:220][983]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.05-10.24.42:272][983]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.11.05-10.24.42:291][983]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.11.05-10.24.42:291][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.11.05-10.24.42:350][983]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.11.05-10.24.42:352][983]LogSavePackage: Moving '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Saved/BP_FirstPersonCharacter539BEC254104F5CFCE9D599FE8C865CC.tmp' to '../../../../../../Users/Then2/Documents/gitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.11.05-10.24.42:362][983]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.873 ms (total: 1.25 sec)
+[2026.11.05-10.24.42:418][983]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.05-10.24.42:418][983]LogContentValidation: Enabled validators:
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.05-10.24.42:418][983]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.05-10.24.42:418][983]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
