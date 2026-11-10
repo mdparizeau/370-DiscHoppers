@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/mason/Downloads/testrepo/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/UI/WBP_Pause.uasset",
+				"C:/Users/mason/Downloads/testrepo/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/UI/WBP_Master.uasset",
+				"C:/Users/mason/Downloads/testrepo/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/mason/Downloads/testrepo/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/UI/WBP_Controls.uasset",
 				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/Z3/WJSG85OAGWKSF173D95T2D.uasset",
 				"C:/Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/S9/LG8ITVP6UJV6C5QVDG28SG.uasset",
