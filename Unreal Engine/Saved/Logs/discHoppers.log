@@ -2277,3 +2277,868 @@ Script Stack (2 frames) :
 [2026.11.17-20.02.07:335][846]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
 [2026.11.17-20.02.07:341][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2026.11.17-20.02.07:430][847]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.11.17-20.03.47:486][235]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.17-20.03.47:491][235]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.17-20.03.47:491][235]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.17-20.03.47:492][235]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.17-20.03.47:493][235]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.319 ms (total: 5.748 ms)
+[2026.11.17-20.03.47:493][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.17-20.03.47:520][235]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.03.47:536][235]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.17-20.03.47:540][235]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.304 ms (total: 10.671 ms)
+[2026.11.17-20.03.47:540][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019697s)
+[2026.11.17-20.03.47:540][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019733s)
+[2026.11.17-20.03.47:558][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.11.17-20.03.47:560][235]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.17-20.03.47:562][235]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.17-20.03.47:562][235]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.17-20.03.47:562][235]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.17-20.03.47:562][235]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.17-20.03.47:566][235]LogWorldPartition: Display: WorldPartition initialize took 4.138 ms (total: 1.91 sec)
+[2026.11.17-20.03.47:566][235]LogPlayLevel: PIE: World Init took: (0.006072s)
+[2026.11.17-20.03.47:567][235]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.17-20.03.47:567][235]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.17-20.03.47:567][235]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.17-20.03.47:567][235]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.17-20.03.47:567][235]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.17-20.03.47:567][235]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.17-20.03.47:569][235]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.17-20.03.47:583][235]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG34V (NVIDIA High Definition Audio)
+[2026.11.17-20.03.47:583][235]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.17-20.03.47:583][235]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.17-20.03.47:583][235]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.17-20.03.47:583][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.11.17-20.03.47:583][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.11.17-20.03.47:585][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.11.17-20.03.47:585][235]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.11.17-20.03.47:585][235]LogInit: FAudioDevice initialized with ID 5.
+[2026.11.17-20.03.47:585][235]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2026.11.17-20.03.47:585][235]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.17-20.03.47:588][235]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.17-20.03.47:596][235]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.11.17-12.03.47
+[2026.11.17-20.03.47:596][235]LogWorld: Bringing up level for play took: 0.006869
+[2026.11.17-20.03.47:598][235]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.11.17-20.03.47:602][235]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.03.47:602][235]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.17-20.03.47:602][235]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.17-20.03.47:603][235]PIE: Server logged in
+[2026.11.17-20.03.47:605][235]PIE: Play in editor total start time 0.113 seconds.
+[2026.11.17-20.03.48:351][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.03.48:351][319]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.03.48:351][319]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.17-20.03.48:353][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.03.48:353][319]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.17-20.03.48:354][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.17-20.03.48:357][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.03.48:373][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.03.48:374][319]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.17-20.03.48:374][319]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.11.17-20.03.48:376][319]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.11.17-20.03.48:382][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.11.17-20.03.48:440][320]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.11.17-20.03.49:524][439]LogSlate: Took 0.007134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.11.17-20.03.51:507][643]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.11.17-20.03.51:536][644]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.11.17-20.03.51:553][645]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.11.17-20.03.52:503][741]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2026.11.17-20.03.52:503][741]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.11.17-20.03.52:552][741]LogStreaming: Display: FlushAsyncLoading(582): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.17-20.03.54:781][741]LogSlate: Took 0.009768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.11.17-20.03.54:790][741]LogSlate: Took 0.006520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.11.17-20.04.03:667][297]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.11.17-20.04.03:701][298]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.11.17-20.04.03:707][298]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.03:721][299]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.11.17-20.04.03:738][300]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.11.17-20.04.03:744][300]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.06:945][571]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform
+[2026.11.17-20.04.06:945][571]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.11.17-20.04.07:310][571]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.14:159][ 38]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.14:160][ 38]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.14:167][ 38]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.14:168][ 38]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.15:045][105]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.15:046][105]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.15:047][105]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.15:047][105]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.17:077][266]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.17:078][266]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.17:078][266]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.17:079][266]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.37:702][749]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform
+[2026.11.17-20.04.37:703][749]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.11.17-20.04.38:006][749]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.43:311][114]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.43:312][114]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.43:320][114]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.43:321][114]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:006][165]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:006][165]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:007][165]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:007][165]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:730][220]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:731][220]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:731][220]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.44:732][220]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.46:863][377]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.46:863][377]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_11:PersistentLevel.BP_boostingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.46:955][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.11.17-20.04.46:962][377]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.47:027][377]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.47:719][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.17-20.04.47:743][426]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform] ([2] browsable assets)...
+[2026.11.17-20.04.47:750][426]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform]
+[2026.11.17-20.04.47:750][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform]
+[2026.11.17-20.04.47:771][426]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform
+[2026.11.17-20.04.47:772][426]LogSavePackage: Moving '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/BP_boostingPlatformE7F38C644D596C4A1325E992111BAF3F.tmp' to '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.uasset'
+[2026.11.17-20.04.47:781][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.372 ms (total: 1.94 sec)
+[2026.11.17-20.04.47:807][426]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.17-20.04.47:807][426]LogContentValidation: Enabled validators:
+[2026.11.17-20.04.47:807][426]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.17-20.04.47:808][426]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.17-20.04.47:808][426]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.17-20.04.47:808][426]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.17-20.04.47:808][426]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.17-20.04.47:808][426]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.17-20.04.47:808][426]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform Validating asset
+[2026.11.17-20.04.47:830][426]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.17-20.04.50:160][607]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.50:160][607]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_10:PersistentLevel.BP_jumpingPlatform_C_0
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.50:195][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.11.17-20.04.50:200][607]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.50:212][607]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.04.50:833][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.17-20.04.50:858][646]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform] ([2] browsable assets)...
+[2026.11.17-20.04.50:865][646]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform]
+[2026.11.17-20.04.50:865][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform]
+[2026.11.17-20.04.50:883][646]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform
+[2026.11.17-20.04.50:885][646]LogSavePackage: Moving '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/BP_jumpingPlatform9F2BD5B94563CC94A79C8F99047D3D66.tmp' to '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.uasset'
+[2026.11.17-20.04.50:893][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.708 ms (total: 2.00 sec)
+[2026.11.17-20.04.50:911][646]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.17-20.04.50:911][646]LogContentValidation: Enabled validators:
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.17-20.04.50:911][646]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.17-20.04.50:911][646]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform Validating asset
+[2026.11.17-20.04.50:935][646]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.17-20.04.52:949][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.17-20.04.52:954][835]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.17-20.04.52:954][835]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.17-20.04.52:955][835]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.17-20.04.52:955][835]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.249 ms (total: 6.997 ms)
+[2026.11.17-20.04.52:955][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.17-20.04.53:000][835]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.04.53:016][835]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.17-20.04.53:019][835]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.258 ms (total: 13.929 ms)
+[2026.11.17-20.04.53:019][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019178s)
+[2026.11.17-20.04.53:019][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019215s)
+[2026.11.17-20.04.53:044][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.11.17-20.04.53:046][835]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.17-20.04.53:047][835]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.17-20.04.53:047][835]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.17-20.04.53:047][835]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.17-20.04.53:047][835]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.17-20.04.53:052][835]LogWorldPartition: Display: WorldPartition initialize took 4.029 ms (total: 1.91 sec)
+[2026.11.17-20.04.53:052][835]LogPlayLevel: PIE: World Init took: (0.006194s)
+[2026.11.17-20.04.53:053][835]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.17-20.04.53:053][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.17-20.04.53:053][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.17-20.04.53:053][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.17-20.04.53:053][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.17-20.04.53:053][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.17-20.04.53:055][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.17-20.04.53:065][835]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG34V (NVIDIA High Definition Audio)
+[2026.11.17-20.04.53:066][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.17-20.04.53:066][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.17-20.04.53:066][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.17-20.04.53:066][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.11.17-20.04.53:066][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.11.17-20.04.53:068][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.11.17-20.04.53:068][835]LogInit: FAudioDevice initialized with ID 6.
+[2026.11.17-20.04.53:068][835]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2026.11.17-20.04.53:068][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.11.17-20.04.53:068][835]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.11.17-20.04.53:072][835]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.17-20.04.53:076][835]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.11.17-12.04.53
+[2026.11.17-20.04.53:077][835]LogWorld: Bringing up level for play took: 0.004839
+[2026.11.17-20.04.53:078][835]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.11.17-20.04.53:081][835]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.04.53:081][835]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.17-20.04.53:081][835]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.17-20.04.53:082][835]PIE: Server logged in
+[2026.11.17-20.04.53:085][835]PIE: Play in editor total start time 0.131 seconds.
+[2026.11.17-20.04.53:903][932]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.04.54:532][  7]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.17-20.04.54:532][  7]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.17-20.04.55:769][155]LogBlueprintUserMessages: [BP_platformProjectile_C_0] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.04.56:871][287]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.04.58:464][478]LogBlueprintUserMessages: [BP_platformProjectile_C_2] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.04.58:983][540]LogBlueprintUserMessages: [BP_platformProjectile_C_3] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.04.59:592][613]LogBlueprintUserMessages: [BP_platformProjectile_C_4] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.00:510][723]LogBlueprintUserMessages: [BP_platformProjectile_C_5] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.01:504][842]LogBlueprintUserMessages: [BP_platformProjectile_C_6] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.01:979][899]LogBlueprintUserMessages: [BP_platformProjectile_C_7] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.03:013][ 23]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.03:842][122]LogBlueprintUserMessages: [BP_platformProjectile_C_9] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.04:651][219]LogBlueprintUserMessages: [BP_platformProjectile_C_10] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.05:411][310]LogBlueprintUserMessages: [BP_platformProjectile_C_11] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.06:479][438]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.07:657][579]LogBlueprintUserMessages: [BP_platformProjectile_C_13] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.08:066][628]LogBlueprintUserMessages: [BP_platformProjectile_C_14] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.08:952][734]LogBlueprintUserMessages: [BP_platformProjectile_C_15] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.10:553][924]LogBlueprintUserMessages: [BP_platformProjectile_C_16] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.11:798][ 73]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.13:644][294]LogBlueprintUserMessages: [BP_platformProjectile_C_18] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.14:313][374]LogBlueprintUserMessages: [BP_platformProjectile_C_19] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.15:262][488]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.16:115][590]LogBlueprintUserMessages: [BP_platformProjectile_C_21] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.16:740][665]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.18:694][899]LogBlueprintUserMessages: [BP_platformProjectile_C_23] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.20:005][ 56]LogBlueprintUserMessages: [BP_platformProjectile_C_24] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.24:195][558]LogBlueprintUserMessages: [BP_platformProjectile_C_25] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.25:229][682]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.25:697][738]LogBlueprintUserMessages: [BP_platformProjectile_C_27] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.26:540][839]LogBlueprintUserMessages: [BP_platformProjectile_C_28] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.27:298][930]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.28:010][ 15]LogBlueprintUserMessages: [BP_platformProjectile_C_30] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.28:620][ 88]LogBlueprintUserMessages: [BP_platformProjectile_C_31] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.30:498][313]LogBlueprintUserMessages: [BP_platformProjectile_C_32] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.05.31:556][440]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.05.32:831][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.05.32:831][589]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.05.32:831][589]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.17-20.05.32:833][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.05.32:834][589]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.17-20.05.32:835][589]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.17-20.05.32:841][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.05.32:864][589]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.17-20.05.32:864][589]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.11.17-20.05.32:864][589]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.11.17-20.05.32:866][589]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.11.17-20.05.32:869][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.05.32:872][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.11.17-20.05.32:937][590]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.11.17-20.05.38:228][933]LogSlate: External Image Picker: DecompressImage failed
+[2026.11.17-20.06.06:289][746]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.17-20.06.06:295][746]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.17-20.06.06:296][746]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.17-20.06.06:296][746]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.17-20.06.06:297][746]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.273 ms (total: 8.271 ms)
+[2026.11.17-20.06.06:297][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.17-20.06.06:321][746]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.06.06:338][746]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.17-20.06.06:341][746]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.236 ms (total: 17.166 ms)
+[2026.11.17-20.06.06:341][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020338s)
+[2026.11.17-20.06.06:341][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.020382s)
+[2026.11.17-20.06.06:364][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.11.17-20.06.06:366][746]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.17-20.06.06:368][746]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.17-20.06.06:368][746]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.17-20.06.06:368][746]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.17-20.06.06:368][746]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.17-20.06.06:372][746]LogWorldPartition: Display: WorldPartition initialize took 4.209 ms (total: 1.92 sec)
+[2026.11.17-20.06.06:372][746]LogPlayLevel: PIE: World Init took: (0.006783s)
+[2026.11.17-20.06.06:373][746]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.17-20.06.06:373][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.17-20.06.06:373][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.17-20.06.06:373][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.17-20.06.06:373][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.17-20.06.06:373][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.17-20.06.06:375][746]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.17-20.06.06:389][746]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG34V (NVIDIA High Definition Audio)
+[2026.11.17-20.06.06:389][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.17-20.06.06:389][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.17-20.06.06:389][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.17-20.06.06:390][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.11.17-20.06.06:390][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.11.17-20.06.06:391][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.11.17-20.06.06:391][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.11.17-20.06.06:391][746]LogInit: FAudioDevice initialized with ID 7.
+[2026.11.17-20.06.06:391][746]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2026.11.17-20.06.06:391][746]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.17-20.06.06:395][746]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.17-20.06.06:402][746]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.11.17-12.06.06
+[2026.11.17-20.06.06:403][746]LogWorld: Bringing up level for play took: 0.006813
+[2026.11.17-20.06.06:405][746]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.11.17-20.06.06:409][746]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.06.06:409][746]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.17-20.06.06:409][746]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.17-20.06.06:409][746]PIE: Server logged in
+[2026.11.17-20.06.06:411][746]PIE: Play in editor total start time 0.115 seconds.
+[2026.11.17-20.06.07:139][832]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.06.07:761][906]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.17-20.06.07:761][906]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.17-20.06.09:617][128]LogBlueprintUserMessages: [BP_platformProjectile_C_0] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.11:544][359]LogBlueprintUserMessages: [BP_platformProjectile_C_1] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.12:546][479]LogBlueprintUserMessages: [BP_platformProjectile_C_2] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.13:832][633]LogBlueprintUserMessages: [BP_platformProjectile_C_3] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.14:874][758]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.15:795][868]LogBlueprintUserMessages: [BP_platformProjectile_C_5] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.17:832][112]LogBlueprintUserMessages: [BP_platformProjectile_C_6] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.18:893][239]LogBlueprintUserMessages: [BP_platformProjectile_C_7] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.19:954][366]LogBlueprintUserMessages: [BP_platformProjectile_C_8] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.21:523][554]LogBlueprintUserMessages: [BP_platformProjectile_C_9] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.22:340][652]LogBlueprintUserMessages: [BP_platformProjectile_C_10] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.23:569][799]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.23:896][838]LogBlueprintUserMessages: [BP_platformProjectile_C_12] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.24:448][904]LogBlueprintUserMessages: [BP_platformProjectile_C_13] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.26:009][ 91]LogBlueprintUserMessages: [BP_platformProjectile_C_14] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.26:693][173]LogBlueprintUserMessages: [BP_platformProjectile_C_15] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.27:178][231]LogBlueprintUserMessages: [BP_platformProjectile_C_16] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.28:077][339]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.28:587][400]LogBlueprintUserMessages: [BP_platformProjectile_C_18] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.29:098][461]LogBlueprintUserMessages: [BP_platformProjectile_C_19] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.29:915][559]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.30:943][682]LogBlueprintUserMessages: [BP_platformProjectile_C_21] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.32:080][818]LogBlueprintUserMessages: [BP_platformProjectile_C_22] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.33:605][  1]LogBlueprintUserMessages: [BP_platformProjectile_C_23] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.34:498][108]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.34:867][152]LogBlueprintUserMessages: [BP_platformProjectile_C_25] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.35:651][246]LogBlueprintUserMessages: [BP_platformProjectile_C_26] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.36:384][334]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.37:095][419]LogBlueprintUserMessages: [BP_platformProjectile_C_28] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.37:504][468]LogBlueprintUserMessages: [BP_platformProjectile_C_29] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.38:438][580]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.39:434][699]LogBlueprintUserMessages: [BP_platformProjectile_C_31] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.40:103][779]LogBlueprintUserMessages: [BP_platformProjectile_C_32] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.41:462][942]LogBlueprintUserMessages: [BP_platformProjectile_C_33] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.42:313][ 44]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.46:366][527]LogBlueprintUserMessages: [BP_platformProjectile_C_35] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.47:476][660]LogBlueprintUserMessages: [BP_platformProjectile_C_36] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.49:042][848]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.49:695][926]LogBlueprintUserMessages: [BP_platformProjectile_C_38] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.50:513][ 24]LogBlueprintUserMessages: [BP_platformProjectile_C_39] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.51:348][124]LogBlueprintUserMessages: [BP_platformProjectile_C_40] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.52:230][230]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.53:267][354]LogBlueprintUserMessages: [BP_platformProjectile_C_42] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.54:885][548]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.06.55:554][628]LogBlueprintUserMessages: [BP_platformProjectile_C_44] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.56:405][730]LogBlueprintUserMessages: [BP_platformProjectile_C_45] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.57:198][825]LogBlueprintUserMessages: [BP_platformProjectile_C_46] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.57:999][921]LogBlueprintUserMessages: [BP_platformProjectile_C_47] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.06.58:992][ 40]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.00:027][164]LogBlueprintUserMessages: [BP_platformProjectile_C_49] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.00:828][260]LogBlueprintUserMessages: [BP_platformProjectile_C_50] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.01:863][384]LogBlueprintUserMessages: [BP_platformProjectile_C_51] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.02:581][470]LogBlueprintUserMessages: [BP_platformProjectile_C_52] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.04:017][642]LogBlueprintUserMessages: [BP_platformProjectile_C_53] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.04:709][725]LogBlueprintUserMessages: [BP_platformProjectile_C_54] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.05:694][843]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.07:014][  1]LogBlueprintUserMessages: [BP_platformProjectile_C_56] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.08:091][130]LogBlueprintUserMessages: [BP_platformProjectile_C_57] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.09:744][328]LogBlueprintUserMessages: [BP_platformProjectile_C_58] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.10:321][397]LogBlueprintUserMessages: [BP_platformProjectile_C_59] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.11:072][487]LogBlueprintUserMessages: [BP_platformProjectile_C_60] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.11:891][585]LogBlueprintUserMessages: [BP_platformProjectile_C_61] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.12:709][683]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.13:169][738]LogBlueprintUserMessages: [BP_platformProjectile_C_63] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.14:028][841]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.14:454][892]LogBlueprintUserMessages: [BP_platformProjectile_C_65] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.15:180][979]LogBlueprintUserMessages: [BP_platformProjectile_C_66] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.15:965][ 73]LogBlueprintUserMessages: [BP_platformProjectile_C_67] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.19:616][510]LogBlueprintUserMessages: [BP_platformProjectile_C_68] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.20:482][614]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.21:909][785]LogBlueprintUserMessages: [BP_platformProjectile_C_70] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.22:787][890]LogBlueprintUserMessages: [BP_platformProjectile_C_71] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.26:892][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.07.26:892][378]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.07.26:893][378]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.17-20.07.26:894][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.07.26:894][378]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.17-20.07.26:896][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.17-20.07.26:901][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.07.26:925][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.07.26:926][378]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.17-20.07.26:926][378]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.11.17-20.07.26:928][378]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.11.17-20.07.26:937][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.11.17-20.07.27:016][379]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.11.17-20.07.50:615][189]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.17-20.07.50:621][189]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.17-20.07.50:621][189]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.17-20.07.50:622][189]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.17-20.07.50:622][189]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.208 ms (total: 9.480 ms)
+[2026.11.17-20.07.50:622][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.17-20.07.50:623][189]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.07.50:636][189]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.17-20.07.50:639][189]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.274 ms (total: 20.440 ms)
+[2026.11.17-20.07.50:639][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016723s)
+[2026.11.17-20.07.50:639][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.016758s)
+[2026.11.17-20.07.50:663][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.11.17-20.07.50:665][189]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.17-20.07.50:667][189]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.17-20.07.50:667][189]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.17-20.07.50:667][189]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.17-20.07.50:667][189]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.17-20.07.50:672][189]LogWorldPartition: Display: WorldPartition initialize took 4.204 ms (total: 1.92 sec)
+[2026.11.17-20.07.50:672][189]LogPlayLevel: PIE: World Init took: (0.006431s)
+[2026.11.17-20.07.50:672][189]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.17-20.07.50:672][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.17-20.07.50:672][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.17-20.07.50:672][189]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.17-20.07.50:672][189]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.17-20.07.50:672][189]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.17-20.07.50:674][189]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.17-20.07.50:688][189]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG34V (NVIDIA High Definition Audio)
+[2026.11.17-20.07.50:688][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.17-20.07.50:688][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.17-20.07.50:688][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.17-20.07.50:688][189]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.11.17-20.07.50:688][189]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.11.17-20.07.50:689][189]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.11.17-20.07.50:689][189]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.11.17-20.07.50:689][189]LogInit: FAudioDevice initialized with ID 8.
+[2026.11.17-20.07.50:689][189]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2026.11.17-20.07.50:689][189]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.17-20.07.50:694][189]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.17-20.07.50:701][189]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.11.17-12.07.50
+[2026.11.17-20.07.50:701][189]LogWorld: Bringing up level for play took: 0.006593
+[2026.11.17-20.07.50:703][189]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.11.17-20.07.50:707][189]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.07.50:707][189]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.17-20.07.50:707][189]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.17-20.07.50:708][189]PIE: Server logged in
+[2026.11.17-20.07.50:710][189]PIE: Play in editor total start time 0.089 seconds.
+[2026.11.17-20.07.51:386][269]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.07.52:205][367]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.17-20.07.52:205][367]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.17-20.07.53:379][507]LogBlueprintUserMessages: [BP_platformProjectile_C_0] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.54:814][679]LogBlueprintUserMessages: [BP_platformProjectile_C_1] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.55:724][788]LogBlueprintUserMessages: [BP_platformProjectile_C_2] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.56:601][893]LogBlueprintUserMessages: [BP_platformProjectile_C_3] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.57:426][992]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.07.58:389][107]LogBlueprintUserMessages: [BP_platformProjectile_C_5] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.07.59:348][222]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.00:048][306]LogBlueprintUserMessages: [BP_platformProjectile_C_7] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.00:868][404]LogBlueprintUserMessages: [BP_platformProjectile_C_8] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.01:727][507]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.02:088][550]LogBlueprintUserMessages: [BP_platformProjectile_C_10] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.02:605][612]LogBlueprintUserMessages: [BP_platformProjectile_C_11] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.04:634][855]LogBlueprintUserMessages: [BP_platformProjectile_C_12] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.05:435][951]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.06:237][ 47]LogBlueprintUserMessages: [BP_platformProjectile_C_14] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.07:022][141]LogBlueprintUserMessages: [BP_platformProjectile_C_15] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.07:773][231]LogBlueprintUserMessages: [BP_platformProjectile_C_16] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.08:639][335]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.09:738][464]LogBlueprintUserMessages: [BP_platformProjectile_C_18] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.10:739][584]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.11:466][671]LogBlueprintUserMessages: [BP_platformProjectile_C_20] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.12:068][743]LogBlueprintUserMessages: [BP_platformProjectile_C_21] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.12:837][835]LogBlueprintUserMessages: [BP_platformProjectile_C_22] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.13:546][920]LogBlueprintUserMessages: [BP_platformProjectile_C_23] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.16:433][266]LogBlueprintUserMessages: [BP_platformProjectile_C_24] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.17:233][362]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.17:894][441]LogBlueprintUserMessages: [BP_platformProjectile_C_26] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.18:544][519]LogBlueprintUserMessages: [BP_platformProjectile_C_27] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.19:238][602]LogBlueprintUserMessages: [BP_platformProjectile_C_28] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.20:532][757]LogBlueprintUserMessages: [BP_platformProjectile_C_29] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.21:925][924]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.22:468][989]LogBlueprintUserMessages: [BP_platformProjectile_C_31] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.22:961][ 48]LogBlueprintUserMessages: [BP_platformProjectile_C_32] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.24:038][177]LogBlueprintUserMessages: [BP_platformProjectile_C_33] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.24:912][282]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.25:823][391]LogBlueprintUserMessages: [BP_platformProjectile_C_35] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.26:174][433]LogBlueprintUserMessages: [BP_platformProjectile_C_36] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.26:877][517]LogBlueprintUserMessages: [BP_platformProjectile_C_37] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.32:845][232]LogBlueprintUserMessages: [BP_platformProjectile_C_38] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.33:745][340]LogBlueprintUserMessages: [BP_platformProjectile_C_39] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.35:315][528]LogBlueprintUserMessages: [BP_platformProjectile_C_40] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.36:307][647]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.36:719][696]LogBlueprintUserMessages: [BP_platformProjectile_C_42] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.37:971][846]LogBlueprintUserMessages: [BP_platformProjectile_C_43] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.38:997][969]LogBlueprintUserMessages: [BP_platformProjectile_C_44] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.39:791][ 64]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.40:820][187]LogBlueprintUserMessages: [BP_platformProjectile_C_46] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.45:676][769]LogBlueprintUserMessages: [BP_platformProjectile_C_47] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.47:697][ 11]LogBlueprintUserMessages: [BP_platformProjectile_C_48] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.48:622][122]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.49:975][284]LogBlueprintUserMessages: [BP_platformProjectile_C_50] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.50:501][347]LogBlueprintUserMessages: [BP_platformProjectile_C_51] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.51:526][470]LogBlueprintUserMessages: [BP_platformProjectile_C_52] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.51:829][506]LogBlueprintUserMessages: [BP_platformProjectile_C_53] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.53:356][689]LogBlueprintUserMessages: [BP_platformProjectile_C_54] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.54:734][854]LogBlueprintUserMessages: [BP_platformProjectile_C_55] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.55:643][963]LogBlueprintUserMessages: [BP_platformProjectile_C_56] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.56:443][ 59]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.57:361][169]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.08.57:980][243]LogBlueprintUserMessages: [BP_platformProjectile_C_59] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.08.59:774][458]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.00:201][509]LogBlueprintUserMessages: [BP_platformProjectile_C_61] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.01:427][656]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.02:463][780]LogBlueprintUserMessages: [BP_platformProjectile_C_63] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.03:322][883]LogBlueprintUserMessages: [BP_platformProjectile_C_64] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.04:163][984]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.04:582][ 34]LogBlueprintUserMessages: [BP_platformProjectile_C_66] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.05:415][134]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.06:812][301]LogBlueprintUserMessages: [BP_platformProjectile_C_68] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.08:189][466]LogBlueprintUserMessages: [BP_platformProjectile_C_69] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.08:965][559]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.09:702][647]LogBlueprintUserMessages: [BP_platformProjectile_C_71] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.11:096][812]LogBlueprintUserMessages: [BP_platformProjectile_C_72] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.11:864][904]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.12:358][963]LogBlueprintUserMessages: [BP_platformProjectile_C_74] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.13:166][ 60]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.13:817][138]LogBlueprintUserMessages: [BP_platformProjectile_C_76] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.14:379][205]LogBlueprintUserMessages: [BP_platformProjectile_C_77] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.15:840][380]LogBlueprintUserMessages: [BP_platformProjectile_C_78] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.16:564][467]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.09.17:761][610]LogBlueprintUserMessages: [BP_platformProjectile_C_80] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.09.19:503][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.09.19:503][813]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.09.19:503][813]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.17-20.09.19:505][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.09.19:505][813]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.17-20.09.19:507][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.17-20.09.19:511][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.09.19:535][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.09.19:536][813]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.17-20.09.19:536][813]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.11.17-20.09.19:538][813]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.11.17-20.09.19:544][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.11.17-20.09.19:609][814]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.11.17-20.09.53:449][143]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.09.53:450][143]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.09.54:148][195]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.09.54:149][195]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.09.54:873][250]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.09.54:874][250]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.00:330][658]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.00:331][658]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.01:030][710]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.01:030][710]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.01:880][773]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.01:881][773]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.16:609][900]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.16:642][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.11.17-20.10.16:647][900]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.16:648][900]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.16:667][900]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.23:427][410]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.23:428][410]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.24:449][487]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.24:450][487]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.26:063][611]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.26:064][611]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.31:765][ 48]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.31:767][ 48]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.32:548][106]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.32:549][106]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.33:372][169]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.33:373][169]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.34:920][290]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.34:956][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.11.17-20.10.34:961][290]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_1
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.34:962][290]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.34:980][290]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_jumpingPlatform_C /Engine/Transient.World_7:PersistentLevel.BP_jumpingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.35:489][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.17-20.10.35:515][328]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform] ([2] browsable assets)...
+[2026.11.17-20.10.35:524][328]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.BP_jumpingPlatform]
+[2026.11.17-20.10.35:524][328]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform]
+[2026.11.17-20.10.35:539][328]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform
+[2026.11.17-20.10.35:540][328]LogSavePackage: Moving '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/BP_jumpingPlatform601CF6B742581F79294BDA8E8346817E.tmp' to '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform.uasset'
+[2026.11.17-20.10.35:549][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.717 ms (total: 2.06 sec)
+[2026.11.17-20.10.35:576][328]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.17-20.10.35:576][328]LogContentValidation: Enabled validators:
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.17-20.10.35:576][328]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.17-20.10.35:576][328]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_jumpingPlatform Validating asset
+[2026.11.17-20.10.37:458][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.11.17-20.10.38:164][507]LogSlate: Window 'Save Content' being destroyed
+[2026.11.17-20.10.38:185][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.17-20.10.38:211][507]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform] ([2] browsable assets)...
+[2026.11.17-20.10.38:220][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform]
+[2026.11.17-20.10.38:220][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform]
+[2026.11.17-20.10.38:238][507]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform
+[2026.11.17-20.10.38:240][507]LogSavePackage: Moving '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Saved/BP_boostingPlatform096103A44BE7FE6BAB7341B4A1C60C60.tmp' to '../../../../../../Users/mdparizeau/OneDrive - California State University Chico/Documents/GitHub/370-DiscHoppers/Unreal Engine/Content/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.uasset'
+[2026.11.17-20.10.38:249][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.399 ms (total: 2.12 sec)
+[2026.11.17-20.10.38:273][507]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.17-20.10.38:273][507]LogContentValidation: Enabled validators:
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.17-20.10.38:273][507]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.17-20.10.38:273][507]AssetCheck: /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform Validating asset
+[2026.11.17-20.10.38:995][589]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.17-20.10.39:001][589]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.17-20.10.39:001][589]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.11.17-20.10.39:003][589]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.11.17-20.10.39:003][589]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.235 ms (total: 10.715 ms)
+[2026.11.17-20.10.39:006][589]LogPlayLevel: [PlayLevel] Compiling BP_boostingPlatform before play...
+[2026.11.17-20.10.39:018][589]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.39:032][589]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_2
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.39:033][589]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_3
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.39:050][589]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetActorOfClass_ReturnValue in not an UClass
+	BP_boostingPlatform_C /Engine/Transient.World_9:PersistentLevel.BP_boostingPlatform_C_3
+	Function /Game/FirstPerson/Blueprints/discHoppers/BP_boostingPlatform.BP_boostingPlatform_C:UserConstructionScript:0040
+[2026.11.17-20.10.39:086][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.17-20.10.39:088][589]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2026.11.17-20.10.39:088][589]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.10.39:105][589]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.17-20.10.39:108][589]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.227 ms (total: 23.668 ms)
+[2026.11.17-20.10.39:108][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019484s)
+[2026.11.17-20.10.39:108][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019518s)
+[2026.11.17-20.10.39:132][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.11.17-20.10.39:133][589]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.11.17-20.10.39:135][589]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.17-20.10.39:135][589]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.17-20.10.39:135][589]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.17-20.10.39:135][589]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.17-20.10.39:139][589]LogWorldPartition: Display: WorldPartition initialize took 4.464 ms (total: 1.93 sec)
+[2026.11.17-20.10.39:139][589]LogPlayLevel: PIE: World Init took: (0.006445s)
+[2026.11.17-20.10.39:140][589]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.17-20.10.39:140][589]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.17-20.10.39:140][589]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.17-20.10.39:140][589]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.17-20.10.39:140][589]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.17-20.10.39:140][589]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.17-20.10.39:142][589]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.17-20.10.39:156][589]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG34V (NVIDIA High Definition Audio)
+[2026.11.17-20.10.39:156][589]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.17-20.10.39:156][589]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.17-20.10.39:156][589]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.17-20.10.39:157][589]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.11.17-20.10.39:157][589]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.11.17-20.10.39:158][589]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.11.17-20.10.39:158][589]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.11.17-20.10.39:158][589]LogInit: FAudioDevice initialized with ID 9.
+[2026.11.17-20.10.39:158][589]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2026.11.17-20.10.39:158][589]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.17-20.10.39:162][589]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.17-20.10.39:167][589]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.11.17-12.10.39
+[2026.11.17-20.10.39:168][589]LogWorld: Bringing up level for play took: 0.005313
+[2026.11.17-20.10.39:170][589]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.11.17-20.10.39:174][589]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.10.39:174][589]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.17-20.10.39:174][589]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.17-20.10.39:175][589]PIE: Server logged in
+[2026.11.17-20.10.39:177][589]PIE: Play in editor total start time 0.175 seconds.
+[2026.11.17-20.10.39:730][654]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(974)]!
+[2026.11.17-20.10.40:367][730]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.11.17-20.10.40:367][730]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.11.17-20.10.41:570][874]LogBlueprintUserMessages: [BP_platformProjectile_C_0] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.42:662][  5]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.43:681][127]LogBlueprintUserMessages: [BP_platformProjectile_C_2] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.44:249][195]LogBlueprintUserMessages: [BP_platformProjectile_C_3] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.46:010][406]LogBlueprintUserMessages: [BP_platformProjectile_C_4] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.47:146][542]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.47:664][604]LogBlueprintUserMessages: [BP_platformProjectile_C_6] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.48:316][682]LogBlueprintUserMessages: [BP_platformProjectile_C_7] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.49:017][766]LogBlueprintUserMessages: [BP_platformProjectile_C_8] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.50:987][  2]LogBlueprintUserMessages: [BP_platformProjectile_C_9] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.51:938][116]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.52:554][190]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.53:609][316]LogBlueprintUserMessages: [BP_platformProjectile_C_12] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.54:161][382]LogBlueprintUserMessages: [BP_platformProjectile_C_13] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.55:078][492]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.56:340][643]LogBlueprintUserMessages: [BP_platformProjectile_C_15] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.57:040][727]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.10.58:025][845]LogBlueprintUserMessages: [BP_platformProjectile_C_17] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.10.58:810][939]LogBlueprintUserMessages: [BP_platformProjectile_C_18] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.00:730][169]LogBlueprintUserMessages: [BP_platformProjectile_C_19] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.01:290][236]LogBlueprintUserMessages: [BP_platformProjectile_C_20] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.02:366][365]LogBlueprintUserMessages: [BP_platformProjectile_C_21] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.03:275][474]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.11.04:088][571]LogBlueprintUserMessages: [BP_platformProjectile_C_23] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.04:825][659]LogBlueprintUserMessages: [BP_platformProjectile_C_24] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.05:559][747]LogBlueprintUserMessages: [BP_platformProjectile_C_25] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.06:602][872]LogBlueprintUserMessages: [BP_platformProjectile_C_26] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.07:295][955]LogBlueprintUserMessages: [BP_platformProjectile_C_27] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.08:631][115]LogBlueprintUserMessages: [BP_platformProjectile_C_28] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.09:700][243]LogBlueprintUserMessages: [BP_platformProjectile_C_29] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.10:852][381]LogBlueprintUserMessages: [BP_platformProjectile_C_30] JUMPING PLATFORM DEPLOYED
+[2026.11.17-20.11.11:912][508]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_D4939014B568CF1103_1520289216] Another projectile is already active
+[2026.11.17-20.11.14:573][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.11.14:573][823]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.11.17-20.11.14:574][823]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.17-20.11.14:576][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.11.14:576][823]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.11.17-20.11.14:578][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.17-20.11.14:584][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.17-20.11.14:609][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.17-20.11.14:610][823]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.17-20.11.14:610][823]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.11.17-20.11.14:612][823]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.11.17-20.11.14:619][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.11.17-20.11.14:701][824]LogPlayLevel: Display: Destroying online subsystem :Context_20
